@@ -1,0 +1,39 @@
+{
+  "home": {
+    "title": "CDUC Portal",
+    "description": "A portal that integrates the modules of the Cosmos product — ECAPP, ECCom, eClient, ECWT, and Showback — bringing together dashboards, reports, manuals, and strategic information in a single environment. The platform supports decision-making at the managerial and operational levels, facilitating access, analysis, and visualization of essential data.",
+    "about": "About",
+    "settings": "Settings",
+    "darkmode": "Dark Mode",
+    "noItemFound": "No Item Found",
+    "language": "Language",
+    "search": "Search",
+    "update": "Update Frequency: ",
+    "close": "Close",
+    "filter": "Filter",
+    "version": "Version: ",
+    "exit": "Exit",
+    "footer": "4Bears Informática - Brasília-DF, Brazil. All rights reserved."
+  },
+  "time": {
+    "years": "Yearly",
+    "months": "Monthly",
+    "weeks": "Weekly",
+    "semester": "Semestral",
+    "days": "Daily"
+  },
+  "filter": {
+    "title": "Title",
+    "description": "Description",
+    "url": "URL"
+  },
+  "login": {
+    "title": "CDUC Portal - Login",
+    "user": "User",
+    "password": "Password",
+    "enter": "Enter",
+    "failedHeader": "Login Failed",
+    "failedMessage": "Invalid username or password.",
+    "ok": "OK"
+  }
+}

@@ -1,0 +1,309 @@
+.breadcrumb {
+  font-family: 'Futura', sans-serif;
+  color: var(--text-color);
+  position: absolute;
+  right: 1em;
+  top: 50%;
+  transform: translateY(-50%);
+  display: flex;
+  align-items: center;
+  overflow-x: auto;
+  white-space: nowrap;
+  max-width: 80%;
+  box-sizing: border-box;
+  padding-top: 3em;
+  padding-bottom: 3em;
+  gap: 0.5em;
+}
+
+.breadcrumb-separator {
+  margin-right: 0.5em;
+  color: var(--text-color);
+  display: inline-block;
+  cursor: default;
+}
+
+.breadcrumb span {
+  margin-right: 0.5em;
+  color: var(--text-color);
+  display: inline-block;
+  cursor: pointer;
+}
+
+.breadcrumb::-webkit-scrollbar {
+  display: none;
+}
+
+.cardContent {
+  color: rgb(93, 93, 93);
+  cursor: default;
+}
+
+.cardSubtitle {
+  color: rgb(0, 0, 0);
+  cursor: default;
+}
+
+.cardTitle {
+  color: --text-color;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.contentWrapper {
+  padding-left: 1.5em;
+  padding-right: 1.5em;
+  margin-left: 255px;
+  height: 75vh;
+  overflow-y: scroll;
+}
+
+.description {
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  font-size: 18px;
+  font-family: 'Futura', sans-serif;
+  margin-left: 8%;
+  margin-right: 8%;
+  margin-top: calc(30vh);
+  border-radius: 1em;
+  padding: 1em;
+  text-align: center;
+
+  -ms-user-select: none; 
+  -webkit-user-select: none; 
+  -moz-user-select: none; 
+  user-select: none; 
+}
+
+.exitButton{
+   --background: rgb(0, 79, 159);
+   color: rgb(255, 255, 255);
+}
+
+.footerText{
+  color: rgb(255, 255, 255);
+  font-family: 'Futura', sans-serif;
+  font-size: 12px;
+  text-align: right;
+  margin-right: 1.5em;
+}
+
+.filterButton {
+  margin-left: auto;
+  display: flex;
+
+  --border-color: rgb(0, 0, 0);
+  --border-style: solid;
+  --border-width: 1px;
+
+  img{
+    margin-right: 0.5em;
+    height: 24px;
+  }
+}
+
+.gridContainer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); //the user can change the amount of items per row just by updating the repeat value
+  gap: 0.5em;
+}
+
+.headerLogo {
+  height: 1.5em;
+}
+
+.hiddenSelect {
+  display: none; 
+}
+
+.homeButton {
+  background-color: transparent;
+  margin-right: 1.5em;
+  margin-left: 1.5em;
+  img {
+    display: block;
+  }
+}
+
+.itemIcon {
+  height: 1.5em;
+  margin-right: 0.5em; 
+}
+
+.levelTitle {
+  text-align: left;
+  font-family: 'Futura-Bold', sans-serif;
+  font-size: 20px;
+  margin-left: 2em;
+}
+
+.listTitle {
+  font-family: 'Futura-Bold', sans-serif;
+  cursor: pointer;
+}
+
+.menuButton {
+  color: rgb(255, 255, 255);
+  margin-right: 0.5em;
+}
+
+.nav-container {
+  display: flex;
+  align-items: center;
+  position: sticky; 
+  top: 0; 
+  z-index: 50;
+  background-color: var(--ion-color-light);
+  width: 100%;
+  left: 0;
+  padding: 0.625em;
+}
+
+.navButtons {
+  margin: 0;
+  max-width: 15%;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  gap: 0.5em;        
+  flex-shrink: 0;  
+  img{
+    height: 25px;
+    width: 25px;
+    flex-shrink: 0;
+  }
+}
+
+.notFoundMessage {
+  text-align: center;
+  font-size: 20px;
+  font-family: 'Futura';
+  margin-top: calc(27vh);
+}
+
+
+.parentTitle {
+  font-size: 22px;
+  font-family: 'Futura-Bold', sans-serif;
+  color: rgb(0, 0, 0);
+  cursor: default;
+  margin-top: 1.5em;
+  margin-left: 0.5em;
+}
+
+.popoverButton {
+  position: absolute;
+  bottom: 0.625em;
+  right: 0.625em;
+  z-index: 10;
+  color: var(--ion-color-primary);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  img{
+    height: 1.5em;
+  }
+}
+
+.popoverContent {
+  margin: 5px;
+  p {
+    font-size: 20px;
+    font-family: 'Futura', sans-serif;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    margin-top: 10px;
+  }
+}
+
+.rightHeaderImg {
+  margin-right: 1em;
+  }
+
+.selectionItem {
+  font-family: 'Futura', sans-serif;
+  margin-left: 1em;
+  cursor: pointer;
+  margin: 0; 
+  padding: 0; 
+  line-height: 0.8; 
+}
+
+.settingsMenu{
+  h4{
+  text-align: center;
+  }
+
+  -ms-user-select: none; 
+  -webkit-user-select: none; 
+  -moz-user-select: none; 
+  user-select: none; 
+}
+
+.title {
+  color: rgb(255, 255, 255);
+  margin: 0;
+  padding: 0;
+  font-size: 30px;
+  font-family: 'Futura-Bold', sans-serif;
+  text-align: center;
+  flex-grow: 1;
+
+  -webkit-user-select: none; 
+
+}
+
+
+/*Ionic component's styling*/
+
+ion-button {
+  text-transform: none;
+  font-size: 15px;
+  font-family: 'Futura', sans-serif;
+}
+
+ion-card {
+  width: 96%;
+  height: 96%;
+  font-family: 'Futura', sans-serif;
+  margin-top: 1em;
+}
+
+ion-item {
+  margin: 0.5em;
+  display: flex;
+  align-items: center;
+  min-height: 48px;
+}
+
+ion-label {
+  display: flex;
+  align-items: center; 
+  height: 100%; 
+}
+
+ion-searchbar.custom {
+  --background: rgb(46, 97, 147);
+  --color: var(--ion-color-primary-contrast);
+  --placeholder-color: rgb(255, 255, 255);
+  --icon-color: rgb(255, 255, 255);
+  --clear-button-color: var(--ion-color-primary-contrast);
+  width: 200px;
+  --border-radius: 4px;
+  margin-right: 1em;
+  text-align: left;
+}
+
+ion-split-pane{
+  --side-width: 250px;
+}
+
+ion-toolbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: rgb(255, 255, 255);
+}

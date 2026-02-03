@@ -1,0 +1,209 @@
+﻿[
+  {
+    "title": "Architecture and Topology",
+    "description": "",
+    "icon": "assets/Images/Menu_Icons/Arquitetura.svg",
+    "url": "",
+    "childrens": []
+  },
+  {
+    "title": "Processes",
+    "description": "",
+    "icon": "assets/Images/Menu_Icons/Dashboards.svg",
+    "url": "",
+    "childrens": [
+      {
+        "title": "Capacity",
+        "description": "",
+        "icon": "",
+        "url": "",
+        "childrens": [
+          {
+            "title": "Power BI",
+            "description": "",
+            "icon": "",
+            "url": "",
+            "childrens": []
+          }
+        ]
+      },
+      {
+        "title": "Cost",
+        "description": "",
+        "icon": "",
+        "url": "",
+        "childrens": [
+          {
+            "title": "Power BI",
+            "description": "",
+            "icon": "",
+            "url": "",
+            "childrens": []
+          }
+        ]
+      },
+      {
+        "title": "Performance",
+        "description": "",
+        "icon": "",
+        "url": "",
+        "childrens": [
+          {
+            "title": "Power BI",
+            "description": "",
+            "icon": "",
+            "url": "",
+            "childrens": []
+          }
+        ]
+      },
+      {
+        "title": "Usage",
+        "description": "",
+        "icon": "",
+        "url": "",
+        "childrens": [
+          {
+            "title": "Power BI",
+            "description": "",
+            "icon": "",
+            "url": "",
+            "childrens": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Cost",
+    "description": "",
+    "icon": "assets/Images/Menu_Icons/Custos.svg",
+    "url": "",
+    "childrens": [
+      {
+        "title": "Cost and Usage Dashboards",
+        "description": "",
+        "icon": "",
+        "url": "",
+        "childrens": [
+          {
+            "title": "ECCOM Dashboards",
+            "description": "Dashboards of Enterprise Contracts & Cost Manager",
+            "icon": "",
+            "url": "https://app.powerbi.com/view?r=eyJrIjoiMDdjZmU1MjgtYzIxMi00YzE1LWEzMTctNDA1N2RhYTFiM2Q5IiwidCI6ImVkZWU3OThjLTRkNDQtNDA1Ni04ODc5LTljNDQyYTVlMGI3MSJ9"
+          }
+        ]
+      },
+      {
+        "title": "Contract Portal",
+        "description": "",
+        "icon": "",
+        "url": "",
+        "childrens": [
+          {
+            "title": "ECCOM Application",
+            "description": "Enterprise Contracts & Cost Manager",
+            "icon": "",
+            "url": "http://eccom.cosmos.dino.br/"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Showback",
+    "description": "",
+    "icon": "assets/Images/Menu_Icons/Showback.svg",
+    "url": "",
+    "childrens": [
+      {
+        "title": "Power BI",
+        "description": "",
+        "icon": "",
+        "url": "",
+        "childrens": [
+          {
+            "title": "Showback",
+            "description": "Dashboards reflecting Showback visions",
+            "icon": "",
+            "url": "https://app.powerbi.com/view?r=eyJrIjoiNjQ0ZTk1OWQtNDhiZS00NTUzLWFjOTgtZTlkZTNiMzM4OWE0IiwidCI6ImVkZWU3OThjLTRkNDQtNDA1Ni04ODc5LTljNDQyYTVlMGI3MSJ9"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Simulations and Trends",
+    "description": "",
+    "icon": "assets/Images/Menu_Icons/Simulacao.svg",
+    "url": "",
+    "childrens": [
+      {
+        "title": "ECAPP Application",
+        "description": "Dashboards of Enterprise Capacity & Performance Modeling",
+        "icon": "",
+        "url": "http://ecapp.cosmos.dino.br/"
+      }
+    ]
+  },
+  {
+    "title": "Dynamic Balancer",
+    "description": "",
+    "icon": "assets/Images/Menu_Icons/Balanceador.svg",
+    "url": "",
+    "childrens": [
+      {
+        "title": "CWT Product",
+        "description": "",
+        "icon": "",
+        "url": "",
+        "childrens": []
+      }
+    ]
+  },
+  {
+    "title": "Documentation",
+    "description": "",
+    "icon": "assets/Images/Menu_Icons/Documentacao.svg",
+    "url": "",
+    "childrens": [
+      {
+        "title": "Manuals and Training",
+        "description": "",
+        "icon": "",
+        "url": "",
+        "childrens": [
+          {
+            "title": "Dashboard Documentation",
+            "description": "",
+            "icon": "",
+            "url": "",
+            "childrens": [
+              {
+                "title": "Power BI",
+                "description": "",
+                "icon": "",
+                "url": "",
+                "childrens": []
+              }
+            ]
+          },
+          {
+            "title": "Tool Access",
+            "description": "",
+            "icon": "",
+            "url": "",
+            "childrens": []
+          },
+          {
+            "title": "Product Manuals",
+            "description": "",
+            "icon": "",
+            "url": "",
+            "childrens": []
+          }
+        ]
+      }
+    ]
+  }
+]

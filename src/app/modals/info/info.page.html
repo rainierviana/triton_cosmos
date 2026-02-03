@@ -1,0 +1,10 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>{{ 'home.about' | translate }}</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="ion-padding">
+  <p><strong>{{ 'home.version' | translate }}</strong> {{ version }}</p>
+  <ion-button fill="clear" (click)="dismiss()">{{ 'home.close' | translate }}</ion-button>
+</ion-content>
