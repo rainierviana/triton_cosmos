@@ -1,0 +1,39 @@
+{
+  "home": {
+    "title": "Portal CDUC",
+    "description": "Portal que integra os módulos do produto Cosmos — ECAPP, ECCom, eClient, ECWT e Showback — reunindo dashboards, relatórios, manuais e informações estratégicas em um único ambiente. A plataforma oferece suporte à tomada de decisão nos níveis gerencial e operacional, facilitando o acesso, a análise e a visualização dos dados essenciais.",
+    "about": "Sobre",
+    "settings": "Configurações",
+    "darkmode": "Modo Escuro",
+    "noItemFound": "Nenhum Item Encontrado",
+    "language": "Idioma",
+    "search": "Pesquisar",
+    "update": "Frequência de atualização: ",
+    "close": "Fechar",
+    "filter": "Filtros",
+    "version": "Versão: ",
+    "exit": "Sair",
+    "footer": "4Bears Informática - Brasília-DF. Todos os diretos reservados"
+  },
+  "time": {
+    "years": "Anual",
+    "months": "Mensal",
+    "weeks": "Semanal",
+    "semester": "Semi-Annual",
+    "days": "Diaária"
+  },
+  "filter": {
+    "title": "Título",
+    "description": "Descrição",
+    "url": "URL"
+  },
+  "login": {
+    "title": "Portal CDUC - Entrar",
+    "user": "Usuário",
+    "password": "Senha",
+    "enter": "Entrar",
+    "failedHeader": "Falha no Login",
+    "failedMessage": "Usuário ou senha inválidos.",
+    "ok": "OK"
+  }
+}
